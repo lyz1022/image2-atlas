@@ -17,7 +17,7 @@ Image2 Atlas（Image2 图鉴）是一款面向 GPT Image 2 创作的 macOS 与 W
   - 已使用 Developer ID 签名
   - 已通过 Apple notarization 公证
   - 已 stapled 公证票据
-- Windows：`Image2 Atlas Setup 0.1.0-x64.exe`
+- Windows：`Image2.Atlas.Setup.0.1.0-x64.exe`
   - 适用于 Windows x64
   - NSIS 安装包
   - 未配置 Windows Authenticode 代码签名证书
@@ -82,7 +82,7 @@ Image2 Atlas 内置经过整理的 GPT Image 2 案例快照，支持从卡片网
 
 1. 从 [Releases](../../releases) 下载适合你系统的安装包。
 2. macOS：打开 DMG，把 `Image2 Atlas.app` 拖入 Applications。
-3. Windows：运行 `Image2 Atlas Setup 0.1.0-x64.exe` 并按安装向导完成安装。
+3. Windows：运行 `Image2.Atlas.Setup.0.1.0-x64.exe` 并按安装向导完成安装。
 4. 启动应用后，在左侧选择“全部案例”“上游案例”“我的案例”“收藏案例”或“生图历史”。
 5. 使用顶部搜索框和筛选栏定位案例。
 6. 选中案例后，在右侧详情区查看大图、来源和 Prompt。
@@ -108,7 +108,7 @@ Windows 卸载程序默认保留用户数据。卸载前会显示复选框组件
 
 ```bash
 shasum -a 256 "Image2.Atlas-0.1.0-arm64.dmg"
-shasum -a 256 "Image2 Atlas Setup 0.1.0-x64.exe"
+shasum -a 256 "Image2.Atlas.Setup.0.1.0-x64.exe"
 ```
 
 应与 release 页面中的 `SHA256SUMS.txt` 一致。
@@ -157,7 +157,7 @@ Current packages:
   - Signed with Developer ID
   - Notarized by Apple
   - Notarization ticket stapled
-- Windows: `Image2 Atlas Setup 0.1.0-x64.exe`
+- Windows: `Image2.Atlas.Setup.0.1.0-x64.exe`
   - Windows x64
   - NSIS installer
   - Not Authenticode-signed
@@ -215,7 +215,7 @@ The release build includes minimal upstream sync support. Synced public cases ar
 
 1. Download the installer for your platform from [Releases](../../releases).
 2. macOS: open the DMG and drag `Image2 Atlas.app` into Applications.
-3. Windows: run `Image2 Atlas Setup 0.1.0-x64.exe` and follow the installer.
+3. Windows: run `Image2.Atlas.Setup.0.1.0-x64.exe` and follow the installer.
 4. Launch the app and browse All Cases, Upstream Cases, My Cases, Favorites, or Generation History.
 5. Use search and filters to find relevant cases.
 6. Select a case to view its image, source, tags, and prompt.
@@ -241,7 +241,7 @@ Verify the downloaded file:
 
 ```bash
 shasum -a 256 "Image2.Atlas-0.1.0-arm64.dmg"
-shasum -a 256 "Image2 Atlas Setup 0.1.0-x64.exe"
+shasum -a 256 "Image2.Atlas.Setup.0.1.0-x64.exe"
 ```
 
 The result should match `SHA256SUMS.txt` on the release page.

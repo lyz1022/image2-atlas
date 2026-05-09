@@ -13,7 +13,7 @@ Installers are attached to GitHub Releases. Source code is not distributed from 
   - Developer ID signed
   - Apple notarized
   - Stapled
-- `Image2 Atlas Setup 0.1.0-x64.exe`
+- `Image2.Atlas.Setup.0.1.0-x64.exe`
   - Windows x64
   - NSIS installer
   - Unsigned; Microsoft Defender SmartScreen may warn on first install
@@ -25,7 +25,7 @@ Installers are attached to GitHub Releases. Source code is not distributed from 
 
 ```text
 b6d6f1fd9a5e4048c83f15c53e0a99a2ba9ab7bd2b770312d3c04f36bf9d72e3  Image2.Atlas-0.1.0-arm64.dmg
-3cbc50db813e32b4dcab2e4dec8ecb992e0051e278bdde604cffd96205663bbd  Image2 Atlas Setup 0.1.0-x64.exe
+3cbc50db813e32b4dcab2e4dec8ecb992e0051e278bdde604cffd96205663bbd  Image2.Atlas.Setup.0.1.0-x64.exe
 ```
 
 ### Notes / 说明
